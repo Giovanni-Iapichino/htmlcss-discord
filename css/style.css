@@ -87,6 +87,20 @@ h1.header-title {
   color: #fff;
 }
 
+h1.big-box-title {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: black;
+}
+
+p.big-box-description {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+}
+
 h1 {
   font-size: 3rem;
   margin-bottom: 20px;
