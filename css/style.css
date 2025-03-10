@@ -42,11 +42,16 @@ ul {
   display: flex;
 }
 
-.h-100 {
-  height: 100%;
+.button-primary-small {
+  background-color: #7289da;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
 }
 
-.button-primary-small {
+.button-secondary-small {
   background-color: white;
   color: black;
   padding: 10px 20px;
@@ -106,6 +111,7 @@ p.big-box-description {
   margin-bottom: 20px;
   text-align: center;
   color: black;
+  line-height: 1.6;
 }
 
 h1 {
@@ -113,7 +119,7 @@ h1 {
   margin-bottom: 20px;
   color: black;
   text-align: left;
-  line-height: 1.6;
+  line-height: 1.3;
   margin-bottom: 15px;
 }
 
@@ -122,6 +128,15 @@ h2 {
   color: black;
   text-align: center;
   margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #6377ba;
+  text-align: left;
 }
 
 p {
@@ -138,10 +153,11 @@ p.description {
 }
 
 p.header-p {
-  font-size: 1.6rem;
+  font-size: 20px;
   margin-bottom: 20px;
   text-align: center;
   color: #fff;
+  line-height: 1.6;
 }
 
 /* HEADER */
@@ -199,7 +215,6 @@ nav.box-link {
 }
 
 .header-bottom .hero {
-  min-height: 400px;
   flex-grow: 1;
   text-align: center;
 }
@@ -207,7 +222,6 @@ nav.box-link {
 /* MAIN */
 
 section {
-  height: 600px;
   padding: 60px 0;
 }
 
@@ -238,53 +252,64 @@ footer {
 }
 
 .footer-top {
-  min-height: 600px;
   padding-bottom: 30px;
   border-bottom: #4a4e51 2px solid;
 }
 
 .footer-top-left {
-  flex-basis: 30%;
-  background-color: #f08180;
-  border: 2px dashed black;
+  flex-basis: 24%;
+  padding: 40px;
 }
 
 .footer-top-right {
   flex-basis: 70%;
-  background-color: #20b3aa;
-  border: 2px dashed black;
 }
 
 .footer-info {
   display: flex;
-  height: 100%;
 }
 
 .info-col {
   flex-basis: 25%;
-  border: 2px dashed white;
 }
 
 .footer-bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 30px;
-  background-color: #7fffd4;
-  height: 70px;
-  border: 2px dashed black;
+  margin-top: 10px;
 }
 
 .bottom-logo {
   padding: 5px 10px;
-  background-color: #db9fa9;
-  border: 2px dashed black;
   color: black;
 }
 
 .bottom-button {
   padding: 5px 10px;
-  background-color: #db9fa9;
-  border: 2px dashed black;
   color: black;
+}
+
+.flag {
+  display: flex;
+  height: 16px;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+}
+
+.info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  padding: 35px;
+}
+
+.first-info {
+  color: #6682d8;
 }
