@@ -67,11 +67,22 @@ ul {
   border-radius: 30%;
   cursor: pointer;
   font-size: 20px;
+  margin-right: 10px;
+}
+
+.button-secondary-big {
+  background-color: #23272a;
+  color: white;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 30%;
+  cursor: pointer;
+  font-size: 20px;
 }
 
 h1.header-title {
   font-size: 3rem;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-align: center;
   color: #fff;
 }
@@ -79,14 +90,23 @@ h1.header-title {
 h1 {
   font-size: 3rem;
   margin-bottom: 20px;
-  text-align: center;
   color: black;
+  text-align: left;
+  line-height: 1.6;
+  margin-bottom: 15px;
 }
 
 p {
   font-size: 1.6rem;
   margin-bottom: 20px;
   text-align: center;
+}
+
+p.description {
+  font-size: 1.3rem;
+  text-align: left;
+  color: black;
+  line-height: 1.6;
 }
 
 p.header-p {
@@ -151,7 +171,6 @@ nav.box-link {
 }
 
 .header-bottom .hero {
-  border: 2px dashed #000;
   min-height: 400px;
   flex-grow: 1;
   text-align: center;
@@ -166,14 +185,10 @@ section {
 
 .large-col {
   flex-basis: 60%;
-  background-color: #1e90ff;
-  border: 2px dashed #000;
 }
 
 .small-col {
   flex-basis: 40%;
-  background-color: #ffc0ca;
-  border: 2px dashed #000;
 }
 
 .full-col {
