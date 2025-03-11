@@ -295,10 +295,13 @@ footer {
 }
 
 .flag {
-  display: flex;
+  display: inline-block;
   height: 16px;
-  gap: 10px;
   margin-bottom: 30px;
+}
+
+.ita {
+  width: 21px;
 }
 
 .social {
